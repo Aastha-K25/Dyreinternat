@@ -54,4 +54,34 @@ body {
     align-items: center !important;
     flex-direction: column;
     position: relative;
+}
+
+.container-fluid {
+    max-width: 997px;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: table;
+    }
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-sm-4{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.boxes{
+    text-align: center;
+}
+.boxes box {
+        margin-top: 30px;
+        cursor: pointer;
+        position: relative;
+        border: solid 1px #ddd;
     }

@@ -121,6 +121,7 @@ body {
     font-weight: bold;
 }
 
+<<<<<<< HEAD
 .container-fluid {
     display: flex;
     justify-content: center;
@@ -139,30 +140,34 @@ body {
 
 
 .section{
+=======
+.section {
+>>>>>>> origin/main
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 40px 20px;
-    gap: 40px;
-    max-width: 100px;
-    margin: 0 auto;
+    justify-content: space-around;
+    padding: 60px 5%;
+    gap: 60px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-.section img{
-    width: 300px;
+.section img {
+    width: 45%;
     height: auto;
     border-radius: 8px;
+    object-fit: cover;
 }
 
-.section h2{
-    font-size: 24px;
+.section h2 {
+    font-size: 28px;
     margin-bottom: 10px;
 }
 
 .section p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6;
-    max-width: 400px;
+    max-width: 90%;
 }
 
 .section.reverse:nth-child(even) {

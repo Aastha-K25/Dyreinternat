@@ -120,10 +120,6 @@ body {
     background-color: #0C2E3A;
     font-weight: bold;
 }
-=======
-    }
-
-
 
 .section{
     display: flex;
@@ -155,8 +151,3 @@ body {
 .section.reverse:nth-child(even) {
     flex-direction: row-reverse;
 }
-
-
-
-
->>>>>>> origin/main

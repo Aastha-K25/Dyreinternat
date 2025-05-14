@@ -11,4 +11,8 @@
       <Folder Include="wwwroot\Models\Repositories\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Include="wwwroot\Models\Event.cs" />
+    </ItemGroup>
+
 </Project>

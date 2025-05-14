@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Dyreinternat.Pages;
 
-public class Event : PageModel
+public class Events : PageModel
 {
     public void OnGet()
     {
